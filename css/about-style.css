@@ -53,8 +53,8 @@
     --deliver-bg-color: #004047;
     --deliver-user-color: #79C8C7;
     --footer-bg-color: #002529; 
-
-
+    
+    
 }
 
 
@@ -178,3 +178,65 @@ a{
 }
 
 /* ************* HEADER STYLE ENDS****************** */
+
+
+
+/* ************* MAIN STYLES START****************** */
+.site-main{
+    background-color: var(--main-bg-color);
+}
+/* ************* HERO SECTION STYLE STARTS****************** */
+.hero-section{
+    padding-top: 47px;
+    background-color: var(--header-bg-color); 
+    background-image: url(../images/about_hero.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 200px) calc(50% - 50px)
+}
+
+.hero-section__wrapper{
+    display: flex;
+}
+
+.hero-section__wrapper--start{
+    width: 100%;
+    max-width: 350px;
+}
+
+.hero-section__title{
+    margin-top: 0;
+    font-size: 64px;
+    line-height: 100px;
+    color: var(--main-text-color);
+}
+
+.hero-section__desc{
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--main-text-color);
+}
+
+.hero-section__desc::before{
+    margin-bottom: 40px;
+    display: block;
+    content: "";
+    width: 50px;
+    height: 4px;
+    background-color: var(--main-subtitle-color);
+}
+/* ************* HERO SECTION STYLE ENDS****************** */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************* MAIN STYLES END****************** */
