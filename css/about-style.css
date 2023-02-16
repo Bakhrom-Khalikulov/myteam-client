@@ -188,10 +188,11 @@ a{
 /* ************* HERO SECTION STYLE STARTS****************** */
 .hero-section{
     padding-top: 47px;
+    padding-bottom: 120px;
     background-color: var(--header-bg-color); 
     background-image: url(../images/about_hero.png);
     background-repeat: no-repeat;
-    background-position: calc(50% + 200px) calc(50% - 50px)
+    background-position: calc(50% + 737px) calc(50% + 60px)
 }
 
 .hero-section__wrapper{
@@ -229,7 +230,114 @@ a{
 /* ************* HERO SECTION STYLE ENDS****************** */
 
 
+/* ************* ABOUT SECTION STYLE STARTS****************** */
+.director-section{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: var(--deliver-bg-color);
+    background-image: url(../images/directors_left.png), url(../images/directors_bottom.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 740px) calc(50% - 429px), calc(50% + 664px) calc(50% + 478px);
+}
 
+.directors-section__title{
+    margin-top: 0;
+    margin-bottom: 64px;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: var(--main-text-color)
+}
+
+.directors__list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1130px;
+}
+
+.directors__item{
+    width: 100%;
+    min-height: 253px;
+    max-width: 340px;
+    margin-right: 30px;
+    margin-bottom: 76px;
+    padding-top: 33px;
+    padding-right: 24px;
+    padding-bottom: 56px;
+    padding-left: 24px;
+    background-color: var(--build-bg-color);
+}
+
+
+.director_img{
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+
+.director_name{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--deliver-user-color);
+}
+
+.director_position{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+.director_name6{
+    margin-top: 0;
+    margin-bottom: 8;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--deliver-user-color);
+}
+
+.director_position6{
+    margin-top: 0;
+    margin-bottom: 24;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+.directors__social{
+    color: var(--main-text-color);
+    margin-left: 80px;
+}
+
+..directors__social:active{
+    background-color: var(--main-subtitle-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************* ABOUT SECTION STYLE ENDS****************** */
 
 
 
