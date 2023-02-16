@@ -53,8 +53,8 @@
     --deliver-bg-color: #004047;
     --deliver-user-color: #79C8C7;
     --footer-bg-color: #002529; 
-
-
+    
+    
 }
 
 
@@ -178,3 +178,93 @@ a{
 }
 
 /* ************* HEADER STYLE ENDS****************** */
+
+/* ************* HERO SECTION STYLE STARTS****************** */
+.hero-section{
+    padding-top: 47px;
+    padding-bottom: 120px;
+    background-color: var(--header-bg-color);
+}
+
+.hero-section__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section__title{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 64px;
+    line-height: 100px;
+    color: var(--main-text-color);
+}
+
+.hero-section__desc{
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--main-subtitle-color);
+}
+
+.hero-section__subdesc{
+    margin-top: 0;
+    margin-bottom: 52px;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--main-text-color);
+}
+
+.hero-section__info{
+    margin-top: 0;
+    margin-bottom: 41px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.115385px;
+    color: var(--main-text-color);
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.hero-section__info::after{
+    display: block;
+    content: "";
+    width: 540px;
+    height: 1px;
+    background-color: var(--main-text-color);
+}
+
+.hero-section__info1{
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.115385px;
+    color: var(--main-text-color);
+    mix-blend-mode: normal;
+    opacity: 0.6; 
+}
+
+.hero-section__info1::after{
+    margin-top: 58px;
+    display: block;
+    content: "";
+    width: 540px;
+    height: 1px;
+    background-color: var(--main-text-color);
+}
+
+.hero-section__btn{
+    padding: 9px 32px;
+    border-radius: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--deliver-bg-color);
+    border: none;
+}
+/* ************* HERO SECTION STYLE ENDS****************** */
