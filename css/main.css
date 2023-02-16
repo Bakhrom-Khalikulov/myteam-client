@@ -155,7 +155,7 @@ a{
     color: var(--main-text-color); 
 }
 
-.site-header__btn{
+.site-header__contact{
     padding: 11px 33px;
     font-size: 18px;
     line-height: 28px;
@@ -165,9 +165,16 @@ a{
     background-color: transparent;
 }
 
-.sitenav__link:active{
-    color: var(--main-subtitle-color);
-    cursor: pointer;
+.site-header_contact{
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--main-text-color)
+}
+
+.site-header__contact:active{
+    color: var(--footer-bg-color);
+    background-color: var(--main-text-color);
 }
 
 .site-header__btn:active{
